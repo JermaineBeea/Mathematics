@@ -1,0 +1,7 @@
+1. Find all integer solutions (x,y)to the equation:
+x2−3y2=1
+
+
+
+2. Find all integer solutions ((x, y)) to the equation:
+x^3 + y^3 = z^3 + w^3
