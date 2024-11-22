@@ -10,8 +10,16 @@ Proof:
     The two factors of SUM_A is F and (K1 + K2 + ...KN)
 
 
-If  mod(An, F) > 0 for all An in SUM_A, then mod(SUM_A, F) = 0 if mod(SUM{mod(An, F) for An in SUM_A}, F) = 0
+If mod(An, F) > 0 for all An in SUM_A, then mod(SUM_A, F) = 0 if mod(SUM{mod(An, F) for An in SUM_A}, F) = 0
 Proof:
-    
+    SUM_REMAINDERS = SUM{mod(An, F) for An in SUM_A}
+    An = FKn + Rn
+    SUM_A = F(K1 + K2 + .. KN) + SUM_REMAINDERS
+    F has to be a factor of SUM_REMAINDERS
+    mod(SUM_REMAINDERS, F) = 0
+
+    mod(A2​,F)
+
+
 
 
