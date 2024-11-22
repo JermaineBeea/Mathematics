@@ -18,7 +18,8 @@ Proof:
     F has to be a factor of SUM_REMAINDERS
     mod(SUM_REMAINDERS, F) = 0
 
-    mod(A2​,F)
+
+
 
 
 
