@@ -1,0 +1,17 @@
+AXIOMS
+
+Let there be SUM_A = a1 + a2 + ..aN, where an is an integer
+
+Greatest common factor
+If all integers of SUM_A have greatest common factor F. Then F is a factor of the SUM_A
+Proof:
+    for any An of SUM_A, An = FKn
+    SUM_A = FK1 + FK2 ... + FkN = F(K1 + K2 + ...KN)
+    The two factors of SUM_A is F and (K1 + K2 + ...KN)
+
+
+If  mod(An, F) > 0 for all An in SUM_A, then mod(SUM_A, F) = 0 if mod(SUM{mod(An, F) for An in SUM_A}, F) = 0
+Proof:
+    
+
+
