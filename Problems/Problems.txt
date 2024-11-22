@@ -1,7 +1,15 @@
 1. Find all integer solutions (x,y)to the equation:
-x2−3y2=1
+x^2−3y^2=1
 
 
 
 2. Find all integer solutions ((x, y)) to the equation:
 x^3 + y^3 = z^3 + w^3
+
+Problem:
+Let pp be a prime number and nn be a positive integer such that p^2 divides n^2 + 1, i.e., p2∣n2+1p2∣n2+1.
+Prove that pp must be of the form 4k+1 for some integer kk.
+
+
+Solution 1:  2 is not a factor of primes numbers greater than 2 therefore 2^2 is not a factor of any any prime^2. theefore p^2 = 2^2 * k + 1
+Solution 2 : 2 is not a factor of p where p > 2. p^2 = 2M + 1 = 2^2*n + 1. 2M = 2^2*N, thefore 
