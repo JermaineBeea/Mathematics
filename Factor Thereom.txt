@@ -19,8 +19,43 @@ Proof:
     mod(SUM_REMAINDERS, F) = 0
 
 
+There can be a squre of the anf integer N  that equls the sum of two squre intgers. 
+Proof:
+    LET N = A + B
+    (A + B)^2 = P^2 + Q^2
+    (A + B)^2 = A^2 = 2AB + B^2
+    P^2 + Q^2 = A^2 + 2AB + B^2
+    LET P^2 = A^2 -> P = A
+    LET Q^2 = 2AB + B^2 
 
+    TRY WHERE 2AB = B^2:
+        Q^2 = 4AB, Q = 2sqrt(AB)
+        AB must be squre intger N^2, Given that 2A = B,  2A^2 = N^2 of which is not possible.
+    
+    RESTATE QUESTION: 
+        Are the two integers P and M such that (P + M)^2 = 2AB + B^2
+        P^2 + 2PM + M^2 = 2AB + B^2
+        LET M^2 = B^2, M = B 
+        LET P^2 + 2PM = 2AB
+        LET p^2 = 2PM, P = 2M 
+        4PM = 2AB, 2AB = 8M^2, A = 4M OR A = 4B
+        FOR ANY VALUE M 
+        P = 2M, B = M, A = 4M OR A = 4B AND P + M = 3M
+    
+    RETURN TO Q^2 = 2AB + B^2
+        Q must be of form 3N, 
+        Where N = B THEREFORE Q = 3B, and A = 4B
+    
+    THEREFORE
+        for (A + B)^2 = P^2 + Q^2 to hold true:
+        A = 4B
+        P = A = 4B and Q = 3B
+        A + B = 5B
 
+    CONCLUSION
+        For the squre of an integer N to be the sum of two squared intgers P and Q:
+        N = 5B, where B is an integer
+        P = 4B AND Q = 3B
 
 
 
