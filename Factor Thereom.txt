@@ -1,9 +1,8 @@
-AXIOMS
+AXIOMS__
 
 Let there be SUM_A = a1 + a2 + ..aN, where an is an integer
-
-Greatest common factor
 If all integers of SUM_A have greatest common factor F. Then F is a factor of the SUM_A
+
 Proof:
     for any An of SUM_A, An = FKn
     SUM_A = FK1 + FK2 ... + FkN = F(K1 + K2 + ...KN)
@@ -18,22 +17,24 @@ Proof:
     F has to be a factor of SUM_REMAINDERS
     mod(SUM_REMAINDERS, F) = 0
 
+__________________________________
 
-There can be a squre of the anf integer N  that equls the sum of two squre intgers. 
+There exits an integer N, of which the quare of is the sum of two square intgers, N^2 = P^2 + Q^2. 
+And or an integer N, the square of which is the sum of two other squared integers, 
+N, P, and QQis given by N=5B, P=4B, and Q=3B for some integer B.
+
 Proof:
+
     LET N = A + B
     (A + B)^2 = P^2 + Q^2
     (A + B)^2 = A^2 = 2AB + B^2
     P^2 + Q^2 = A^2 + 2AB + B^2
     LET P^2 = A^2 -> P = A
     LET Q^2 = 2AB + B^2 
-
-    TRY WHERE 2AB = B^2:
-        Q^2 = 4AB, Q = 2sqrt(AB)
-        AB must be squre intger N^2, Given that 2A = B,  2A^2 = N^2 of which is not possible.
     
-    RESTATE QUESTION: 
-        Are the two integers P and M such that (P + M)^2 = 2AB + B^2
+    CHECK IF  Q^2 = 2AB + B^2  holds true
+    LET Q = P + M. Are the two integers P and M such that (P + M)^2 = 2AB + B^2
+        
         P^2 + 2PM + M^2 = 2AB + B^2
         LET M^2 = B^2, M = B 
         LET P^2 + 2PM = 2AB
